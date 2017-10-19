@@ -1,0 +1,19 @@
+{
+  "name": "frame",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch": "./node_modules/watchify/bin/cmd.js framework/main.js -o framework/dist/bundle.js",
+    "start": "python -m SimpleHTTPServer 8000"
+  },
+  "author": "Guanlun Zhao",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babelify": "^7.3.0",
+    "browserify": "^14.4.0",
+    "watchify": "^3.9.0"
+  }
+}
